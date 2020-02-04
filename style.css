@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     justify-content: center;
     background-image: url("bg.svg");
-    background-size: 65%;
+    background-size: 70%;
     background-repeat: no-repeat;;
     background-position: right;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 .block-content {
-    width: 35%;
+    width: 30%;
     margin-left: 2.5%;
     text-align: left;
     display: inline-block;
