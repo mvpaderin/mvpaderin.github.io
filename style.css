@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     justify-content: center;
     background-image: url("bg.svg");
-    background-size: auto;
+    background-size: 75%;
     background-repeat: no-repeat;;
     background-position: right;
 }
