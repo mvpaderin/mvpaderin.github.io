@@ -67,6 +67,8 @@ a, a:hover {
     padding: 12.5px;
     text-decoration: none;
     display: inline-block;
+    border-radius: 50px;
+    background-color: #A8DEEA;
 }
 
 a:hover {
