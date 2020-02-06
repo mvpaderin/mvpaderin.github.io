@@ -58,7 +58,7 @@ p {
     margin-bottom: 3%;
 }
 
-a, a:hover {
+#welcome a, #welcome a:hover {
     color: black;
     text-transform: uppercase;
     font-weight: 600;
@@ -71,7 +71,7 @@ a, a:hover {
     background-color: #A8DEEA;
 }
 
-a:hover {
+#welcome a:hover {
     font-weight: 600;
 }
 
@@ -79,7 +79,7 @@ ul {
     list-style-type: none;
 }
 
-ul li {
+#welcome ul li {
     text-align: left;
     margin-bottom: 5%;
     font-size: 16.5px;
@@ -92,4 +92,21 @@ h3 {
 
 footer {
     margin-top: 1.5%;
+}
+
+/* Sticky links */
+
+#sticky-links li {
+    position: fixed;
+    right: 0;
+    z-index: 11;
+    letter-spacing: 2px;
+}
+
+#sticky-links a {
+    color: #000;
+}
+
+#contacts-link {
+    margin: 2%;
 }
