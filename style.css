@@ -5,6 +5,11 @@ body {
     font-family: "Comfortaa";
 }
 
+
+ul {
+    list-style-type: none;
+}
+
 #welcome {
     height: 100vh;
     width: 100vw;
@@ -75,11 +80,7 @@ p {
     font-weight: 600;
 }
 
-ul {
-    list-style-type: none;
-}
-
-#welcome ul li {
+#welcome ul li, #courses ul li {
     text-align: left;
     margin-bottom: 5%;
     font-size: 16.5px;
