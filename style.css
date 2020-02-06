@@ -38,6 +38,12 @@ ul {
     border-radius: 50%;
 }
 
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .block-content {
     width: 30%;
     margin-left: 2.5%;
@@ -113,4 +119,23 @@ footer {
     margin-right: 1.5%;
     display: inline-block;
     float: right;
+}
+
+/* Contact form */
+
+#contactform-section {
+    height: 100vh;
+}
+
+#contactform-section form {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+}
+
+#contactform-section input[type=text], #contactform-section input[type=email], #contactform-section input[type=submit], #contactform-section textarea {
+    float: left;
+    margin: 2%;
 }
