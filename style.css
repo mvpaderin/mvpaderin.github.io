@@ -94,6 +94,13 @@ p {
     outline: none;
     }
 
+#welcome button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
 #welcome ul li, #courses ul li {
     text-align: left;
     margin-bottom: 5%;
