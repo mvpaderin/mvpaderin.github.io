@@ -69,7 +69,7 @@ p {
     margin-bottom: 3%;
 }
 
-#welcome a, #welcome a:hover {
+#welcome button, #welcome button:hover {
     color: black;
     text-transform: uppercase;
     font-weight: 600;
@@ -82,7 +82,7 @@ p {
     background-color: #A8DEEA;
 }
 
-#welcome a:hover {
+#welcome button:hover {
     font-weight: 600;
 }
 
